@@ -1,0 +1,79 @@
+
+/*----Images----*/	
+img{
+	background-color : white;
+	position: relative;
+	border: none;
+
+}
+
+/*----Html & body----*/
+
+body{
+
+	margin-top : -1px;
+	padding: 0px; 
+	background-color: #000000;
+}
+
+h1{	 
+	color: #FFFFFF;
+	position : relative;
+	text-align: center;
+	font-size: 300%;
+	
+  }
+
+
+/**----div----*/
+div#contains{
+
+	display: block;
+	margin : 0 auto 0 auto;
+	position : relative;
+	
+}
+
+
+/*--textual block--*/
+div#texte{
+
+	margin-left: 270px;
+	width : 600px;
+
+}
+
+div#page_foot{
+
+	
+}
+
+div#contains{width : 608px;}
+
+/*----References----*/
+a{
+
+	font-family : 'Arial';
+	font-size : 100%;
+	color : #1AF;
+	margin-left: 0px;
+	text-decoration:none;
+	
+ }
+ 
+a:hover{
+	color: #F00;
+	text-decoration:underline;
+}
+
+p{
+	color : white;
+
+}
+
+
+div{background-color:#000000;}
+
+
+
+
