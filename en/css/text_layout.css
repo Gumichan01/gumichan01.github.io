@@ -1,0 +1,219 @@
+
+
+/*
+*	© 2012-2014 Luxon Jean-Pierre
+*
+*	luxon.jean.pierre@gmail.com
+*/
+
+/*Font*/
+@font-face{
+	font-family:'Japonesa';			
+	src: url('../font/Japonesa.ttf') format('truetype'),	
+		url('../font/Japonesa.eot') format('eot'), 				
+		url('../font/Japonesa.woff') format('woff'),		
+		url('../font/Japonesa.svg') format('svg');			
+	}
+	
+
+/*----Images----*/	
+img{
+	background-color : white;
+	position: relative;
+	border: none;
+
+}
+
+.left{
+
+	float : left;
+	
+	
+}
+
+.right{
+	
+	float : right;
+}
+
+img#head{
+
+	margin-left: 1px;
+	margin-bottom: 32px;
+
+}
+
+img#side{
+
+	margin-right : 24px;
+
+}
+
+/*----Html & body----*/
+
+body{
+
+	margin-top : -1px;
+	padding: 0px; 
+	background-color: #111111;
+}
+
+
+/*----Titles----*/
+h1,h2, h3, h4{ font-family:'Japonesa'; }
+
+h1{	 
+	position : relative;
+	text-align: center;
+	font-size: 400%;
+	
+  }
+
+
+/*----navigation----*/
+
+nav{
+	display: block;
+}
+
+
+.menu_nav{ 
+	
+	float: left;
+	position : relative;
+	text-align:left;
+	list-style: none;
+	margin: 0;  /*Pas de marge*/
+	padding: 0;
+
+  }
+
+.menu{ 	
+
+	background: #FFFFFF;	/*Fond blanc*/
+	border: 8px solid #000086;	
+	width: 192px;		/*largeur de la case*/
+	height: 32px;
+	margin-left: 12px;	
+	margin-bottom: 8px;
+	padding-top: 6px;   	
+}
+
+.link, .menu{
+
+	font-size: 100%;
+}
+
+
+/*--hover--*/
+li:hover{ 
+
+ 	background:#11AAFF;
+}
+
+
+/**----div----*/
+div#contains{
+
+	display: block;
+	margin : auto auto 0 auto;
+	position : relative;
+	min-height: 608px;
+}
+
+
+/*--textual block--*/
+div#texte{
+
+	margin-left: 256px;
+	width : 640px;
+
+}
+
+
+/*----References----*/
+a{
+
+	font-family : 'Arial';
+	font-size : 100%;
+	color : #1AF;
+	margin-left: 0px;
+	text-decoration:none;
+	
+ }
+
+ 
+ 
+.onglet{
+
+	font-family:'Japonesa';
+	font-size: 175%;
+	color: #000000; 	
+	margin-left: 16px;
+	text-decoration:none;
+
+}
+ 
+a:hover{
+	color: #F00;
+	text-decoration:underline;
+}
+
+
+/*----paragraph----*/
+
+p{ 
+	font-family:'Arial'; 
+	font-size: 100%;
+	text-decoration:none;
+}
+
+
+p:first-letter{
+
+	padding-left: 20px;
+}
+
+/*----frame----*/
+iframe{
+	border:0;	
+}
+
+video,iframe{width: 640px; height: 360px;}
+
+
+footer{
+
+	border-bottom: 4px solid;
+}
+
+div#page_foot{
+
+	float :left;
+}
+
+div#contains, div#page_foot{width : 944px;}
+
+/*----group----*/
+h1,h2,h3,h4,p,div#page_foot,iframe,script{color: #FFFFFF}
+
+div,footer{background-color:#000000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
