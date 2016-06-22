@@ -1,13 +1,5 @@
 
-
-/*
-*	© 2012-2015 Luxon Jean-Pierre
-*
-*	luxon.jean.pierre@gmail.com
-*/
-	
-
-/*----Images----*/	
+/*----Images----*/
 img{
 	background-color : white;
 	position: relative;
@@ -37,7 +29,7 @@ img#side{
 
 img#screenshot{
 
-	
+
 
 }
 
@@ -46,7 +38,7 @@ img#screenshot{
 body{
 
 	margin-top : -1px;
-	padding: 0px; 
+	padding: 0px;
 	background-color: #111111;
 }
 
@@ -54,11 +46,11 @@ body{
 /*----Titles----*/
 h1,h2, h3, h4{ font-family:'Japonesa'; }
 
-h1{	 
+h1{
 	position : relative;
 	text-align: center;
 	font-size: 400%;
-	
+
   }
 
 
@@ -76,7 +68,7 @@ nav{
 
 
 /*--hover--*/
-li:hover{ 
+li:hover{
 
  	background:##000000;
 }
@@ -109,20 +101,20 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-	
+
 }
 
- 
- 
+
+
 .onglet{
 
 	font-size: 175%;
-	color: #000000; 	
+	color: #000000;
 	margin-left: 16px;
 	text-decoration:none;
 
 }
- 
+
 a:hover{
 	color: #F00;
 	text-decoration:underline;
@@ -131,8 +123,8 @@ a:hover{
 
 /*----paragraph----*/
 
-p{ 
-	font-family:'Arial'; 
+p{
+	font-family:'Arial';
 	font-size: 100%;
 	text-decoration:none;
 }
@@ -155,4 +147,3 @@ div#contains, div#page_foot{width : 944px;}
 h1,h2,h3,h4,p,div#page_foot,iframe,script,li{color: #FFFFFF}
 
 div,footer{background-color:#000000;}
-

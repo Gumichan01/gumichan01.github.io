@@ -1,5 +1,5 @@
 
-/*----Images----*/	
+/*----Images----*/
 img{
 	background-color : white;
 	position: relative;
@@ -12,16 +12,16 @@ img{
 body{
 
 	margin-top : -1px;
-	padding: 0px; 
+	padding: 0px;
 	background-color: #000000;
 }
 
-h1{	 
+h1{
 	color: #FFFFFF;
 	position : relative;
 	text-align: center;
 	font-size: 300%;
-	
+
   }
 
 
@@ -31,7 +31,7 @@ div#contains{
 	display: block;
 	margin : 0 auto 0 auto;
 	position : relative;
-	
+
 }
 
 
@@ -45,7 +45,7 @@ div#texte{
 
 div#page_foot{
 
-	
+
 }
 
 div#contains{width : 608px;}
@@ -58,9 +58,9 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-	
+
  }
- 
+
 a:hover{
 	color: #F00;
 	text-decoration:underline;
@@ -73,7 +73,3 @@ p{
 
 
 div{background-color:#000000;}
-
-
-
-

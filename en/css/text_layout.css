@@ -1,22 +1,15 @@
 
-
-/*
-*	© 2012-2014 Luxon Jean-Pierre
-*
-*	luxon.jean.pierre@gmail.com
-*/
-
 /*Font*/
 @font-face{
-	font-family:'Japonesa';			
-	src: url('../font/Japonesa.ttf') format('truetype'),	
-		url('../font/Japonesa.eot') format('eot'), 				
-		url('../font/Japonesa.woff') format('woff'),		
-		url('../font/Japonesa.svg') format('svg');			
+	font-family:'Japonesa';
+	src: url('../font/Japonesa.ttf') format('truetype'),
+		url('../font/Japonesa.eot') format('eot'),
+		url('../font/Japonesa.woff') format('woff'),
+		url('../font/Japonesa.svg') format('svg');
 	}
-	
 
-/*----Images----*/	
+
+/*----Images----*/
 img{
 	background-color : white;
 	position: relative;
@@ -27,12 +20,12 @@ img{
 .left{
 
 	float : left;
-	
-	
+
+
 }
 
 .right{
-	
+
 	float : right;
 }
 
@@ -54,7 +47,7 @@ img#side{
 body{
 
 	margin-top : -1px;
-	padding: 0px; 
+	padding: 0px;
 	background-color: #111111;
 }
 
@@ -62,11 +55,11 @@ body{
 /*----Titles----*/
 h1,h2, h3, h4{ font-family:'Japonesa'; }
 
-h1{	 
+h1{
 	position : relative;
 	text-align: center;
 	font-size: 400%;
-	
+
   }
 
 
@@ -77,8 +70,8 @@ nav{
 }
 
 
-.menu_nav{ 
-	
+.menu_nav{
+
 	float: left;
 	position : relative;
 	text-align:left;
@@ -88,15 +81,15 @@ nav{
 
   }
 
-.menu{ 	
+.menu{
 
 	background: #FFFFFF;	/*Fond blanc*/
-	border: 8px solid #000086;	
+	border: 8px solid #000086;
 	width: 192px;		/*largeur de la case*/
 	height: 32px;
-	margin-left: 12px;	
+	margin-left: 12px;
 	margin-bottom: 8px;
-	padding-top: 6px;   	
+	padding-top: 6px;
 }
 
 .link, .menu{
@@ -106,7 +99,7 @@ nav{
 
 
 /*--hover--*/
-li:hover{ 
+li:hover{
 
  	background:#11AAFF;
 }
@@ -139,21 +132,21 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-	
+
  }
 
- 
- 
+
+
 .onglet{
 
 	font-family:'Japonesa';
 	font-size: 175%;
-	color: #000000; 	
+	color: #000000;
 	margin-left: 16px;
 	text-decoration:none;
 
 }
- 
+
 a:hover{
 	color: #F00;
 	text-decoration:underline;
@@ -162,8 +155,8 @@ a:hover{
 
 /*----paragraph----*/
 
-p{ 
-	font-family:'Arial'; 
+p{
+	font-family:'Arial';
 	font-size: 100%;
 	text-decoration:none;
 }
@@ -176,7 +169,7 @@ p:first-letter{
 
 /*----frame----*/
 iframe{
-	border:0;	
+	border:0;
 }
 
 video,iframe{width: 640px; height: 360px;}
@@ -198,22 +191,3 @@ div#contains, div#page_foot{width : 944px;}
 h1,h2,h3,h4,p,div#page_foot,iframe,script{color: #FFFFFF}
 
 div,footer{background-color:#000000;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
