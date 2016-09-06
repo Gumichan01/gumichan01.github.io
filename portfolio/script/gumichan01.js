@@ -1,7 +1,7 @@
 
 
-var date_maj="22 juillet 2016";
-var date_maj_en="22nd july, 2016";
+var date_maj="6 septembre 2016";
+var date_maj_en="6th september, 2016";
 
 
 function maj_date_fr()
