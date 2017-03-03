@@ -1,7 +1,7 @@
 
 
-var date_maj="1er Janvier 2017";
-var date_maj_en="1st January, 2017";
+var date_maj="3 Mars 2017";
+var date_maj_en="3rd March, 2017";
 
 
 function maj_date_fr()
