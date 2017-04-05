@@ -23,7 +23,8 @@ img#head{
 
 img#side{
 
-	margin-right : 24px;
+	margin-right : 16px;
+	margin-bottom : 16px;
 	width: 768px;
 	height: 468px;
 }
