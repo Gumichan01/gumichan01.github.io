@@ -136,7 +136,7 @@ p:first-letter{padding-left: 20px;}
 /*----frame----*/
 iframe{border:0;	}
 
-video,iframe{width: 640px; height: 360px;}
+video,iframe{width: 768px; height: 432px;}
 
 footer{border-bottom: 4px solid;}
 
