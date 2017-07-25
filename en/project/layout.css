@@ -17,7 +17,6 @@ img#head{
 
 	margin-left: 1px;
 	margin-bottom: 32px;
-
 }
 
 img#side{
@@ -25,13 +24,7 @@ img#side{
 	margin-right : 16px;
 	margin-bottom : 16px;
 	width: 768px;
-	height: 468px;
-}
-
-img#screenshot{
-
-
-
+	height: 432px;
 }
 
 /*----Html & body----*/
@@ -51,8 +44,7 @@ h1{
 	position : relative;
 	text-align: center;
 	font-size: 400%;
-
-  }
+ }
 
 
 /*----navigation----*/
@@ -60,7 +52,6 @@ h1{
 nav{
 	display: block;
 }
-
 
 .link{
 
@@ -90,7 +81,6 @@ div#texte{
 
 	margin : auto auto 0 auto;
 	width : 768px;
-
 }
 
 
@@ -102,10 +92,7 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-
 }
-
-
 
 .onglet{
 
@@ -113,7 +100,6 @@ a{
 	color: #000000;
 	margin-left: 16px;
 	text-decoration:none;
-
 }
 
 a:hover{
