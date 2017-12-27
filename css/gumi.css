@@ -4,6 +4,8 @@ img{
 	background-color : white;
 	position: relative;
 	border: none;
+	max-witdh: 100%;
+	height: auto;
 
 }
 
@@ -19,7 +21,7 @@ h1{
 	color: #FFFFFF;
 	position : relative;
 	text-align: center;
-	font-size: 300%;
+	font-size: 4vw;
 
   }
 
@@ -30,20 +32,11 @@ div#contains{
 	display: block;
 	margin : 0 auto 0 auto;
 	position : relative;
+	min-width : 304px;
+	max-width : 608px;
 
 }
 
-
-/*--textual block--*/
-div#texte{
-
-	margin-left: 270px;
-	width : 600px;
-
-}
-
-
-div#contains{width : 608px;}
 
 /*----References----*/
 a{
@@ -61,9 +54,6 @@ a:hover{
 	text-decoration:underline;
 }
 
-p{
-	color : white;
-}
 
 
 body, div{background-color: #101010;}
