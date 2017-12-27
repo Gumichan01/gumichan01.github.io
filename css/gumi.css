@@ -4,8 +4,8 @@ img{
 	background-color : white;
 	position: relative;
 	border: none;
-	max-witdh: 100%;
-	height: auto;
+	max-witdh: 300px;
+	max-height: 150px;
 
 }
 
