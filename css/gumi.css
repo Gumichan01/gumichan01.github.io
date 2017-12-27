@@ -13,7 +13,6 @@ body{
 
 	margin-top : -1px;
 	padding: 0px;
-	background-color: #000000;
 }
 
 h1{
@@ -43,10 +42,6 @@ div#texte{
 
 }
 
-div#page_foot{
-
-
-}
 
 div#contains{width : 608px;}
 
@@ -68,8 +63,7 @@ a:hover{
 
 p{
 	color : white;
-
 }
 
 
-div{background-color:#000000;}
+body, div{background-color: #101010;}
