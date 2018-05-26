@@ -2,10 +2,10 @@
 /*Font*/
 @font-face{
 	font-family:'Japonesa';
-	src: url('../font/Japonesa.ttf') format('truetype'),
-		url('../font/Japonesa.eot') format('eot'),
-		url('../font/Japonesa.woff') format('woff'),
-		url('../font/Japonesa.svg') format('svg');
+	src: url('../portfolio/font/Japonesa.ttf') format('truetype'),
+		url('../portfolio/font/Japonesa.eot') format('eot'),
+		url('../portfolio/font/Japonesa.woff') format('woff'),
+		url('../portfolio/font/Japonesa.svg') format('svg');
 	}
 
 
