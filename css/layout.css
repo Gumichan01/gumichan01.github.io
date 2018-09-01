@@ -115,7 +115,7 @@ li:hover{
 
 
 /**----div----*/
-div#contains{
+.contains{
 
 	display: block;
 	margin : auto auto 0 auto;
@@ -199,7 +199,7 @@ div#page_foot{
 	float :left;
 }
 
-div#contains, div#page_foot{
+.contains, div#page_foot{
 
 	width : 944px;
 }
