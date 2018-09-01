@@ -125,13 +125,6 @@ li:hover{
 }
 
 
-/*--textual block--*/
-div#text{
-
-
-}
-
-
 /*----References----*/
 a{
 
@@ -194,7 +187,7 @@ footer{
 	border-bottom: 4px solid;
 }
 
-div#page_foot{
+.page_foot{
 
 	float :left;
 }
