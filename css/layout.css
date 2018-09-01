@@ -43,6 +43,11 @@ img#side{
 
 /*----Html & body----*/
 
+h1,h2, h3, h4{ 
+
+	font-family:'Japonesa';
+}
+
 body{
 
 	background-color: #111111;
@@ -51,12 +56,6 @@ body{
 	width : 60%;
 }
 
-
-/*----Titles----*/
-h1,h2, h3, h4{ 
-
-	font-family:'Japonesa';
-}
 
 h1{
 	
@@ -174,22 +173,20 @@ iframe{
 	border:0;
 }
 
-video,iframe{
+video, iframe{
 
 	width: 640px;
 	height: 360px;
 }
 
 
+/*----footer----*/
+
 footer{
 
 	border-bottom: 4px solid;
 }
 
-.foot{
-
-	/*float :left;*/
-}
 
 .contains, .foot{
 
@@ -197,7 +194,7 @@ footer{
 }
 
 /*----group----*/
-h1,h2,h3,h4,p,div#page_foot,iframe,script{
+h1,h2,h3,h4,p,.foot,iframe,script{
 
 	color: #FFFFFF
 }
