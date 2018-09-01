@@ -7,16 +7,16 @@ img{
 	border: none;
 	/*max-witdh: 300px;
 	max-height: 150px;*/
-	width: 100%;
+	/*width: 100%;*/
 }
 
 /*----Html & body----*/
 
 body{
 
-	margin : 0 auto 0 auto;
+	margin: 0 auto 0 auto;
 	position : relative;
-	max-width : 60%;
+	width : 60%;
 }
 
 h1{
@@ -30,16 +30,32 @@ h1{
 p{
 
 	font-family : 'Arial';
-	font-size : 1vw;
+	font-size : 2vw;
 	text-align: center;
 }
 
 /**----div----*/
 div{
 
-	/*margin : 0 auto 0 auto;*/
+	margin : 0 auto 0 auto;
 	position : relative;
 	width : 100%;
+}
+
+
+@media (max-width: 1023px) {
+
+	img{
+		width: 100%;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	body{
+		
+		/*width : 100%;*/
+	}
 }
 
 /*----References----*/
@@ -47,6 +63,7 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
+	text-align: center;
 }
 
 a:hover{
