@@ -54,6 +54,7 @@ body{
 	margin: 0 auto 0 auto;
 	position : relative;	
 	width : 60%;
+	display: block;
 }
 
 
@@ -105,42 +106,10 @@ nav{
 }
 
 
-
-@media (max-width: 1300px) {
-
-	nav, .main {
-		
-		float: none;
-	}
-	
-	nav{
-
-		width: 94%;
-	}
-	
-	.main {
-	
-		width: 100%;
-	}
-}
-
-
-
-
 /*--hover--*/
 li:hover{
 
  	background:#11AAFF;
-}
-
-
-/**----div----*/
-.contains{
-
-	display: block;
-	margin : auto auto 0 auto;
-	position : relative;
-	width: 100%;
 }
 
 
@@ -206,13 +175,29 @@ video, iframe{
 footer{
 
 	border-bottom: 4px solid;
-}
-
-
-.contains, .foot{
-
 	width : 100%;
+	height: 20%;
 }
+
+
+@media (max-width: 1300px) {
+
+	nav, .main {
+		
+		float: none;
+	}
+	
+	nav{
+
+		width: 94%;
+	}
+	
+	.main {
+	
+		width: 100%;
+	}
+}
+
 
 /*----group----*/
 h1,h2,h3,h4,p,.foot,iframe,script{
@@ -220,7 +205,7 @@ h1,h2,h3,h4,p,.foot,iframe,script{
 	color: #FFFFFF
 }
 
-div,footer{
+.contains,footer{
 
 	background-color:#000000;
 }
