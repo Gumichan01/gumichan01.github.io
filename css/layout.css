@@ -70,7 +70,7 @@ nav{
 	
 	float: left;
 	position : relative;
-	width: 35%;
+	width: 30%;
 }
 
 
@@ -78,7 +78,7 @@ nav{
 
 	list-style: none;
 	padding: 0;
-	width: 90%;
+	width: 100%;
 
 }
 
@@ -98,7 +98,7 @@ nav{
 	float: right;
 }
 
-.contains,{
+.contains{
 
 	width: 100%;
 }
