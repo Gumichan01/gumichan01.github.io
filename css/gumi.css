@@ -5,16 +5,18 @@ img{
 	background-color : white;
 	position: relative;
 	border: none;
-	max-witdh: 300px;
-	max-height: 150px;
+	/*max-witdh: 300px;
+	max-height: 150px;*/
+	width: 100%;
 }
 
 /*----Html & body----*/
 
 body{
 
-	/*margin-top : -1px;
-	padding: 0px;*/
+	margin : 0 auto 0 auto;
+	position : relative;
+	max-width : 60%;
 }
 
 h1{
@@ -33,13 +35,12 @@ p{
 }
 
 /**----div----*/
-.contains{
+div{
 
-	margin : 0 auto 0 auto;
+	/*margin : 0 auto 0 auto;*/
 	position : relative;
-	max-width : 780px;
+	width : 100%;
 }
-
 
 /*----References----*/
 a{
