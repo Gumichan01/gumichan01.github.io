@@ -45,9 +45,10 @@ img#side{
 
 body{
 
-	margin-top : -1px;
-	padding: 0px;
 	background-color: #111111;
+	margin: 0 auto 0 auto;
+	position : relative;	
+	width : 60%;
 }
 
 
@@ -67,17 +68,16 @@ h1{
 
 /*----navigation----*/
 
-/*nav{
+nav{
 	
-	display: block;
-}*/
+	float: left;
+	position : relative;
+	width: 35%;
+}
 
 
 .menu_nav{
 
-	float: left;
-	position : relative;
-	width: 20%;
 	text-align:left;
 	list-style: none;
 	padding: 0;
@@ -98,7 +98,7 @@ h1{
 .main{
 	
 	margin-left: 256px;
-	width : 640px;
+	width : 65%;
 }
 
 .link, .menu{
@@ -121,7 +121,6 @@ li:hover{
 	margin : auto auto 0 auto;
 	position : relative;
 	width: 100%;
-	/*min-height: 608px;*/
 }
 
 
@@ -187,14 +186,14 @@ footer{
 	border-bottom: 4px solid;
 }
 
-.page_foot{
+.foot{
 
-	float :left;
+	/*float :left;*/
 }
 
-.contains, div#page_foot{
+.contains, .foot{
 
-	width : 944px;
+	width : 100%;
 }
 
 /*----group----*/
