@@ -1,27 +1,26 @@
 
 /*Font*/
 @font-face{
+
 	font-family:'Japonesa';
 	src: url('../portfolio/font/Japonesa.ttf') format('truetype'),
 		url('../portfolio/font/Japonesa.eot') format('eot'),
 		url('../portfolio/font/Japonesa.woff') format('woff'),
 		url('../portfolio/font/Japonesa.svg') format('svg');
-	}
+}
 
 
 /*----Images----*/
 img{
+
 	background-color : white;
 	position: relative;
 	border: none;
-
 }
 
 .left{
 
 	float : left;
-
-
 }
 
 .right{
@@ -33,7 +32,6 @@ img#head{
 
 	/* margin-left: 1px;
 	margin-bottom: 32px;*/
-
 }
 
 img#side{
@@ -59,11 +57,11 @@ h1,h2, h3, h4{
 }
 
 h1{
+	
 	position : relative;
 	text-align: center;
 	font-size: 400%;
-
-  }
+}
 
 
 /*----navigation----*/
@@ -80,16 +78,16 @@ nav{
 	position : relative;
 	text-align:left;
 	list-style: none;
-	margin: 0;  /*Pas de marge*/
+	margin: 0;
 	padding: 0;
 
-  }
+}
 
 .menu{
 
-	background: #FFFFFF;	/*Fond blanc*/
+	background: #FFFFFF;
 	border: 8px solid #000086;
-	width: 192px;		/*largeur de la case*/
+	width: 192px;
 	height: 32px;
 	margin-left: 12px;
 	margin-bottom: 8px;
@@ -124,7 +122,6 @@ div#text{
 
 	margin-left: 256px;
 	width : 640px;
-
 }
 
 
@@ -136,8 +133,7 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-
- }
+}
 
 
 
@@ -152,6 +148,7 @@ a{
 }
 
 a:hover{
+
 	color: #F00;
 	text-decoration:underline;
 }
@@ -160,6 +157,7 @@ a:hover{
 /*----paragraph----*/
 
 p{
+
 	font-family:'Arial';
 	font-size: 100%;
 	text-decoration:none;
@@ -173,10 +171,15 @@ p:first-letter{
 
 /*----frame----*/
 iframe{
+
 	border:0;
 }
 
-video,iframe{width: 640px; height: 360px;}
+video,iframe{
+
+	width: 640px;
+	height: 360px;
+}
 
 
 footer{
@@ -189,9 +192,18 @@ div#page_foot{
 	float :left;
 }
 
-div#contains, div#page_foot{width : 944px;}
+div#contains, div#page_foot{
+
+	width : 944px;
+}
 
 /*----group----*/
-h1,h2,h3,h4,p,div#page_foot,iframe,script{color: #FFFFFF}
+h1,h2,h3,h4,p,div#page_foot,iframe,script{
 
-div,footer{background-color:#000000;}
+	color: #FFFFFF
+}
+
+div,footer{
+
+	background-color:#000000;
+}
