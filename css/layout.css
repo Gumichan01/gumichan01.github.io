@@ -77,9 +77,9 @@ nav{
 
 .menu_nav{
 
-	text-align:left;
 	list-style: none;
 	padding: 0;
+	width: 90%;
 
 }
 
@@ -87,23 +87,44 @@ nav{
 
 	background: #FFFFFF;
 	border: 8px solid #000086;
-	width: 192px;
+	width: 100%;
 	height: 32px;
-	margin-left: 12px;
 	margin-bottom: 8px;
 	padding-top: 6px;
 }
 
 .main{
-	
-	margin-left: 256px;
+
 	width : 65%;
+	float: right;
 }
 
 .link, .menu{
 
 	font-size: 100%;
 }
+
+
+
+@media (max-width: 1300px) {
+
+	nav, .main {
+		
+		float: none;
+	}
+	
+	nav{
+
+		width: 94%;
+	}
+	
+	.main {
+	
+		width: 100%;
+	}
+}
+
+
 
 
 /*--hover--*/
