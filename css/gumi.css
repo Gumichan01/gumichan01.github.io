@@ -18,12 +18,12 @@ body{
 }
 
 h1{
+
 	color: #FFFFFF;
 	position : relative;
 	text-align: center;
 	font-size: 4vw;
-
-  }
+}
 
 
 /**----div----*/
@@ -34,7 +34,6 @@ div#contains{
 	position : relative;
 	min-width : 304px;
 	max-width : 608px;
-
 }
 
 
@@ -46,14 +45,17 @@ a{
 	color : #1AF;
 	margin-left: 0px;
 	text-decoration:none;
-
- }
+}
 
 a:hover{
+
 	color: #F00;
 	text-decoration:underline;
 }
 
 
 
-body, div{background-color: #101010;}
+body, div{
+
+	background-color: #101010;
+}
