@@ -15,6 +15,7 @@ img{
 
 	background-color : white;
 	position: relative;
+	max-width: 100%;
 	border: none;
 }
 
@@ -60,7 +61,7 @@ h1{
 	
 	position : relative;
 	text-align: center;
-	font-size: 400%;
+	font-size: 300%;
 }
 
 
@@ -113,7 +114,8 @@ div#contains{
 	display: block;
 	margin : auto auto 0 auto;
 	position : relative;
-	min-height: 608px;
+	width: 100%;
+	/*min-height: 608px;*/
 }
 
 
