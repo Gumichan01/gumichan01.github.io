@@ -1,7 +1,7 @@
 
 
-var date_maj="29 novambre 2018";
-var date_maj_en="29th November, 2018";
+var date_maj="17 février 2019";
+var date_maj_en="17th february, 2019";
 
 
 function maj_date_fr()
