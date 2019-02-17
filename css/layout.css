@@ -13,7 +13,6 @@
 /*----Images----*/
 img{
 
-	background-color : white;
 	position: relative;
 	max-width: 100%;
 	border: none;
@@ -43,7 +42,7 @@ img#side{
 
 /*----Html & body----*/
 
-h1,h2, h3, h4{ 
+h1,h2, h3, h4{
 
 	font-family:'Japonesa';
 }
@@ -51,13 +50,13 @@ h1,h2, h3, h4{
 body{
 
 	margin: 0 auto 0 auto;
-	position : relative;	
+	position : relative;
 	width : 60%;
 }
 
 
 h1{
-	
+
 	position : relative;
 	text-align: center;
 	font-size: 3vw;
@@ -67,7 +66,7 @@ h1{
 /*----navigation----*/
 
 nav{
-	
+
 	float: left;
 	position : relative;
 	width: 30%;
@@ -201,17 +200,17 @@ body, div, nav, .foot{
 @media (max-width: 1300px) {
 
 	nav, .main {
-		
+
 		float: none;
 	}
-	
+
 	nav{
 
 		width: 94%;
 	}
-	
+
 	.main {
-	
+
 		width: 100%;
 	}
 }
