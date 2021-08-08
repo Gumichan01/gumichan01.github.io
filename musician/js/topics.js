@@ -6,5 +6,5 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("Topic 2").innerHTML = Topic.Topic2;
   }
 };
-xmlhttp.open("GET", "/config.json", true);
+xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
 xmlhttp.send();

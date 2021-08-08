@@ -29,5 +29,5 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("img").style.borderRadius = "25px";
   }
 };
-xmlhttp.open("GET", "/config.json", true);
+xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
 xmlhttp.send();

@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("bio").innerHTML = Bio.bio;
   }
 };
-xmlhttp.open("GET", "/config.json", true);
+xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
 xmlhttp.send();
 
 /*ATR*/
@@ -24,7 +24,7 @@ xmlhttp.send();
         " used Ulink to create this page Click here to get yours now!";
     }
   };
-  xmlhttp.open("GET", "/config.json", true);
+  xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
   xmlhttp.send();
 
 
@@ -40,5 +40,5 @@ var xmlhttp = new XMLHttpRequest();
 
         }
       };
-      xmlhttp.open("GET", "/config.json", true);
+      xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
       xmlhttp.send();

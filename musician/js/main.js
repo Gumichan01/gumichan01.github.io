@@ -41,7 +41,7 @@ var xmlhttp = new XMLHttpRequest();
             window.location.href = Link.link1;
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
@@ -56,7 +56,7 @@ var xmlhttp = new XMLHttpRequest();
             console.log = Link.msg + "&nbsp;" + Link.link;
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
@@ -71,7 +71,7 @@ var xmlhttp = new XMLHttpRequest();
             console.log = Link.msg + "&nbsp;" + Link.link3;
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
@@ -86,7 +86,7 @@ var xmlhttp = new XMLHttpRequest();
             console.log = Link.msg + "&nbsp;" + Link.link4;
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
@@ -116,7 +116,7 @@ var xmlhttp = new XMLHttpRequest();
             window.location.href = Link.media + "/" + Link.user_url;
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
@@ -131,7 +131,7 @@ function name() {
             document.getElementById("name").innerHTML = "AKA " + Link.user
           }
         };
-        xmlhttp.open("GET", "/config.json", true);
+        xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
         xmlhttp.send();
       }
 
