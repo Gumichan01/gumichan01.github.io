@@ -5,7 +5,7 @@
   "symbol": "@",
   "media_name": "Instagram",
   "name": "Gumichan01",
-  "photo": "https://cdn.glitch.com/35409746-8e4a-406e-ac47-16c4db92cad8%2F10x100profile.jpeg",
+  "photo": "https://f4.bcbits.com/img/0022332944_10.jpg", 
   "img_top": "150",
   "img_margin": "0",
   "home": "./@/instagrammer.html",
@@ -13,20 +13,20 @@
 
   "msg": "You are being teleported to",
 
-  "title1": "Link 1",
-  "link1": "/link.html",
+  "title1": "Bandcamp",
+  "link1": "https://gdraft.bandcamp.com/",
 
-  "title2": "Link 2",
-  "link2": "/link.html",
+  "title2": "Soundcloud",
+  "link2": "https://soundcloud.com/gumichan01",
 
-  "title3": "",
-  "link3": "",
+  "title3": "Youtube",
+  "link3": "https://www.youtube.com/user/Gumichan01",
 
-  "title4": "",
-  "link4": "",
+  "title4": "Dogmazic",
+  "link4": "https://play.dogmazic.net/search.php?type=song#artists.php?action=show&artist=6776",
 
-  "title5": "",
-  "link5": "",
+  "title5": "LMMS",
+  "link5": "https://lmms.io/lsp/?action=browse&user=gumichan01",
   
   "title6":"",
   "link6":"",
