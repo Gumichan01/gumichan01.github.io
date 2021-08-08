@@ -11,8 +11,6 @@ xmlhttp.send();
 
 /*ATR*/
 
-window.onload = title();
-
 function title() {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
@@ -30,6 +28,7 @@ function title() {
   xmlhttp.send();
 }
 
+window.onload = title();
 
 /*User*/
 
