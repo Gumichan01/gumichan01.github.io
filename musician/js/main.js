@@ -27,7 +27,7 @@ var xmlhttp = new XMLHttpRequest();
 
         }
       };
-      xmlhttp.open("GET", "/config.json", true);
+      xmlhttp.open("GET", "https://gumichan01.github.io/musician/config.json", true);
       xmlhttp.send();
 
       function click1() {
