@@ -1,15 +1,15 @@
 {
-  "user": "instagrammer",
-  "user_url": "instagrammer",
-  "media": "https://instagram.com",
+  "user": "gumichan01",
+  "user_url": "Gumichan01 Bio link",
+  "media": "",
   "symbol": "@",
   "media_name": "Instagram",
-  "name": "Instagrammer",
+  "name": "Gumichan01",
   "photo": "https://cdn.glitch.com/35409746-8e4a-406e-ac47-16c4db92cad8%2F10x100profile.jpeg",
   "img_top": "150",
   "img_margin": "0",
-  "home": "/@/instagrammer.html",
-  "display":"instagrammer",
+  "home": "./@/instagrammer.html",
+  "display":"Gumichan01",
 
   "msg": "You are being teleported to",
 
@@ -34,7 +34,7 @@
   "title7":"",
   "link7":"",
 
-  "bio": "This person has not setup a bio yet...",
+  "bio": "French bedroom producer",
 
   "Topic1": "",
   "Topic2": ""
